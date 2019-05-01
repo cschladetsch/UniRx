@@ -1,8 +1,12 @@
 {
-    "name": "UniRxMain",
-    "references": [],
+    "name": "UniRxEditor",
+    "references": [
+        "UniRxMain"
+    ],
     "optionalUnityReferences": [],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
