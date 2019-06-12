@@ -7,8 +7,11 @@
 /Temp/
 /[Pp]ackages/
 
-bin/
-obj/
+# generated files when built stand-alone
+/bin/
+/obj/
+/bin.meta
+/obj.meta
 
 # Visual Studio cache directory
 .vs/
