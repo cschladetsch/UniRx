@@ -19,7 +19,7 @@ namespace UniRx
         public static AsyncSubject<TSource> GetAwaiter<TSource>(this IObservable<TSource> source)
         {
             if (source == null) throw new ArgumentNullException("source");
-            
+
             return RunAsync(source, CancellationToken.None);
         }
 

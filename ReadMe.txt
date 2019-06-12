@@ -15,11 +15,11 @@ Release Notes, see [UniRx/releases](https://github.com/neuecc/UniRx/releases)
 
 Author Info
 ---
-Yoshifumi Kawai(a.k.a. neuecc) is a software developer in Japan.  
-He is awarding Microsoft MVP for Visual C# since 2011.  
+Yoshifumi Kawai(a.k.a. neuecc) is a software developer in Japan.
+He is awarding Microsoft MVP for Visual C# since 2011.
 
 Blog: https://medium.com/@neuecc (English)
-Blog: http://neue.cc/ (Japanese) 
+Blog: http://neue.cc/ (Japanese)
 Twitter: https://twitter.com/neuecc (Japanese)
 
 License

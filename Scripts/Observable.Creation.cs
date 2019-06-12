@@ -7,7 +7,7 @@ namespace UniRx
     public static partial class Observable
     {
         /// <summary>
-        /// Create anonymous observable. Observer has exception durability. This is recommended for make operator and event like generator. 
+        /// Create anonymous observable. Observer has exception durability. This is recommended for make operator and event like generator.
         /// </summary>
         public static IObservable<T> Create<T>(Func<IObserver<T>, IDisposable> subscribe)
         {
@@ -17,7 +17,7 @@ namespace UniRx
         }
 
         /// <summary>
-        /// Create anonymous observable. Observer has exception durability. This is recommended for make operator and event like generator(HotObservable). 
+        /// Create anonymous observable. Observer has exception durability. This is recommended for make operator and event like generator(HotObservable).
         /// </summary>
         public static IObservable<T> Create<T>(Func<IObserver<T>, IDisposable> subscribe, bool isRequiredSubscribeOnCurrentThread)
         {
@@ -27,7 +27,7 @@ namespace UniRx
         }
 
         /// <summary>
-        /// Create anonymous observable. Observer has exception durability. This is recommended for make operator and event like generator. 
+        /// Create anonymous observable. Observer has exception durability. This is recommended for make operator and event like generator.
         /// </summary>
         public static IObservable<T> CreateWithState<T, TState>(TState state, Func<TState, IObserver<T>, IDisposable> subscribe)
         {
@@ -37,7 +37,7 @@ namespace UniRx
         }
 
         /// <summary>
-        /// Create anonymous observable. Observer has exception durability. This is recommended for make operator and event like generator(HotObservable). 
+        /// Create anonymous observable. Observer has exception durability. This is recommended for make operator and event like generator(HotObservable).
         /// </summary>
         public static IObservable<T> CreateWithState<T, TState>(TState state, Func<TState, IObserver<T>, IDisposable> subscribe, bool isRequiredSubscribeOnCurrentThread)
         {

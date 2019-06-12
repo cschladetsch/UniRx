@@ -70,7 +70,7 @@ namespace UniRx.Async.Internal
                             }
                             else
                             {
-                                continue; // next i 
+                                continue; // next i
                             }
                         }
                         catch (Exception ex)

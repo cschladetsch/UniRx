@@ -9,7 +9,7 @@ namespace UniRx
         readonly ICancelable source;
 
         public static readonly CancellationToken Empty = new CancellationToken(null);
-        
+
         /// <summary>Same as Empty.</summary>
         public static readonly CancellationToken None = new CancellationToken(null);
 

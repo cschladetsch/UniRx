@@ -125,7 +125,7 @@ namespace UniRx.Operators
                             parent.list = new List<T>();
                             parent.isRunning = false;
 
-                            // exit lock 
+                            // exit lock
                         }
                         else
                         {
@@ -260,7 +260,7 @@ namespace UniRx.Operators
                             if (parent.isCompleted) return false;
                             parent.isRunning = false;
 
-                            // exit lock 
+                            // exit lock
                         }
                         else
                         {

@@ -524,7 +524,7 @@ namespace UniRx
                     {
                         yield return null;
                         if (cancellation.IsDisposed) break;
-                        
+
                         elapsed += Time.deltaTime;
                         if (elapsed >= dt)
                         {

@@ -81,7 +81,7 @@ namespace UniRx.InternalUtil
                                 }
 #endif
 
-                                continue; // next i 
+                                continue; // next i
                             }
                         }
                         catch (Exception ex)

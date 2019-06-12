@@ -319,7 +319,7 @@ namespace UniRx
         {
             Dispose(true);
         }
-        
+
         #endregion
     }
 

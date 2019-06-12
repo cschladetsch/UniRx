@@ -65,7 +65,7 @@ namespace UniRx
     // InspectorDisplay and for Specialized ReactiveProperty
     // If you want to customize other specialized ReactiveProperty
     // [UnityEditor.CustomPropertyDrawer(typeof(YourSpecializedReactiveProperty))]
-    // public class ExtendInspectorDisplayDrawer : InspectorDisplayDrawer { } 
+    // public class ExtendInspectorDisplayDrawer : InspectorDisplayDrawer { }
 
     [UnityEditor.CustomPropertyDrawer(typeof(InspectorDisplayAttribute))]
     [UnityEditor.CustomPropertyDrawer(typeof(IntReactiveProperty))]
@@ -155,7 +155,7 @@ namespace UniRx
                 fldInfo = type.GetField(path, BindingFlags.IgnoreCase | BindingFlags.GetField | BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic);
 
                 if (fldInfo != null ||
-                    type.BaseType == null || 
+                    type.BaseType == null ||
                     type.BaseType.IsSubclassOf(typeof(ReactiveProperty<>))) break;
 
                 // if the field information is missing, it may be in the base class

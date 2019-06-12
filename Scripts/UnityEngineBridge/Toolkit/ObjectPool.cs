@@ -125,7 +125,7 @@ namespace UniRx.Toolkit
         }
 
         /// <summary>
-        /// Trim pool instances. 
+        /// Trim pool instances.
         /// </summary>
         /// <param name="instanceCountRatio">0.0f = clear all ~ 1.0f = live all.</param>
         /// <param name="minSize">Min pool count.</param>
@@ -338,7 +338,7 @@ namespace UniRx.Toolkit
         }
 
         /// <summary>
-        /// Trim pool instances. 
+        /// Trim pool instances.
         /// </summary>
         /// <param name="instanceCountRatio">0.0f = clear all ~ 1.0f = live all.</param>
         /// <param name="minSize">Min pool count.</param>
