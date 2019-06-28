@@ -4,7 +4,7 @@
 - Reactive properties of type `string` that are not initialised with any value cause null reference exceptions. Initialise with string.Empty.
 
 ## ORIGINAL
-UniRx - Reactive Extensions for Unity / Ver 6.2.2
+### UniRx - Reactive Extensions for Unity / Ver 6.2.2
 ===
 Created by Yoshifumi Kawai(neuecc)
 
