@@ -13,6 +13,8 @@
 /bin.meta
 /obj.meta
 
+.csproj.user.meta
+
 # Visual Studio cache directory
 .vs/
 
