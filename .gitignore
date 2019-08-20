@@ -1,5 +1,7 @@
 # Generic LiminalVR .gitignore file
 
+.current
+
 # Unity output folders
 /Library/
 /Builds/
