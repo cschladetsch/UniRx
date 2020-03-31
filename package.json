@@ -6,7 +6,6 @@
     "description": "Reactive Extensions for Unity. See https://github.com/neuecc/UniRx",
     "keywords":
     [
-        "liminal",
         "unirx",
         "reactive"
     ],
